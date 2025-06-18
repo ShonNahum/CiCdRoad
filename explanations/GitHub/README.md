@@ -22,10 +22,8 @@ Below is the architecture showing how GitHub fits into my DevOps workflow:
 
 ### 🔄 Workflow Explanation
 
-- A developer **pushes code** to a GitHub repository.
-- That push **triggers a webhook** configured in GitHub.
-- The webhook notifies **Jenkins**, which starts a CI/CD pipeline automatically.
-- Jenkins then handles the **build, test, and deployment** stages as configured.
+- A developer **pushes code** to a GitHub repository. (GitHub is our SCM)
+- Jenkins then manages the **checkout, build, test, deployment** stages as configured.
 
 ---
 

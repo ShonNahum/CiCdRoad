@@ -33,11 +33,11 @@ At a high level, Jenkins acts as the CI orchestrator.
 
 ### 📦 Current Pipelines
 
-I currently manage two pipelines:
+I currently manage two  CI pipelines and one CD pipeline:
 
 ---
 
-### 1️⃣ ImageComposer Pipeline
+### 1️⃣ CI - ImageComposer Pipeline
 
 ![ImageComposer Pipeline Diagram](/images/image_composer.png)
 
@@ -48,7 +48,7 @@ I currently manage two pipelines:
 
 ---
 
-### 2️⃣ Pylint Pipeline
+### 2️⃣ CI - Pylint Pipeline
 
 ![Pylint Pipeline Diagram](/images/pylint.png)
 
@@ -60,6 +60,19 @@ I currently manage two pipelines:
 
 ---
 
+### 3. CD - Argo Deployment
+
+![Argo Deployment Pipeline Diagram](/images/argo_deployment.png)
+
+**🔄 Workflow Explanation:**  
+- A user manually triggers the Argo deployment pipeline in Jenkins after specifying the new image versions.  
+- Jenkins automates the process of update and push the image tag in the Helm chart within the GitHub repository to reflect the new version.
+
+
+This manual trigger combined with GitOps automation ensures precise control over deployments while benefiting from automated sync and rollbacks.
+
+
+---
 ## ✅ Summary
 
 This setup represents the foundation of my CI process:

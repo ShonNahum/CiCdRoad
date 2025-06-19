@@ -18,7 +18,7 @@ I use **Prometheus** as my primary monitoring tool because:
 
 ### 🔁 Workflow Summary
 
-- **Prometheus** scrapes metrics from services (e.g., GitHub Exporter,ArgoCD, MongoDB Exporter,SM Application,SMC Application,Jenkins).
+- **Prometheus** scrapes metrics from services (e.g., Loki, GitHub Exporter,ArgoCD, MongoDB Exporter,SM Application,SMC Application,Jenkins).
 - Metrics from applications and infrastructure are collected and stored in **time-series** format.
 
 ---

@@ -22,18 +22,21 @@ The project simulates a real-world software delivery lifecycle by automating:
 ## 📦 Tech Stack
 
 ### 🔨 CI/CD
-- **Jenkins**: Automates builds and deployments
-- **Git**: Source control
-- **Docker**: Containerization
+- **Jenkins**: Automates builds and deployments  
+- **Git**: Source control  
+- **Docker**: Containerization  
+- **ArgoCD**: GitOps-based continuous deployment for Kubernetes applications
+- **K3s**: Lightweight Kubernetes used as the deployment target in my CD pipeline
+
+
 
 ### 📊 Monitoring & Logging
-- **Prometheus** + **Node Exporter / cAdvisor**: Metrics
+- **Prometheus**: Metrics
 - **Grafana**: Visualization
-- **ELK Stack (Elasticsearch, Logstash, Kibana)**: Centralized logging
+- **Loki**: Centralized logging
 
 ### ☁️ Infrastructure
 - **K3s**: Lightweight Kubernetes cluster
-- **Nginx / Ingress**: Load balancing and reverse proxy
 
 ---
 

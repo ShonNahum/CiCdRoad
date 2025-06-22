@@ -54,5 +54,7 @@ Grafana is the single pane of glass for my entire observability stack, giving me
 ![Grafana logs dashboard Diagram](/images/grafana_logs.png)
 ===
 ![Grafana promtheus dashboard Diagram](/images/grafana_prometheus.png)
+===
+![Grafana argoCD dashboard Diagram](/images/grafana_argocd.png)
 
 ---

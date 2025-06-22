@@ -45,10 +45,10 @@ Grafana is the single pane of glass for my entire observability stack, giving me
 ## 📊 My Grafana Dashboards
 ---
 
-![Grafana Architecture Diagram](images/grafana_docker.png)
-![Grafana Architecture Diagram](images/grafana_github.png)
-![Grafana Architecture Diagram](images/grafana_jenkins.png)
-![Grafana Architecture Diagram](images/grafana_logs.png)
-![Grafana Architecture Diagram](images/grafana_prometheus.png)
+![Grafana docker dashboard Diagram](images/grafana_docker.png)
+![Grafana github dashboard Diagram](images/grafana_github.png)
+![Grafana jenkins dashboard Diagram](images/grafana_jenkins.png)
+![Grafana logs dashboard Diagram](images/grafana_logs.png)
+![Grafana promtheus dashboard Diagram](images/grafana_prometheus.png)
 
 ---

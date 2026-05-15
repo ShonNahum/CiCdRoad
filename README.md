@@ -1,4 +1,4 @@
-# 🚀 Full DevOps CI/CD Pipeline Project
+# My CI/CD Pipeline Project
 
 ![Architecture Diagram](images/architecture.png)
 
@@ -6,7 +6,7 @@ This project demonstrates a complete **DevOps CI/CD pipeline**, showcasing moder
 
 ---
 
-## 🔧 Project Overview
+##  Project Overview
 
 The project simulates a real-world software delivery lifecycle by automating:
 - Code builds
@@ -19,9 +19,9 @@ The project simulates a real-world software delivery lifecycle by automating:
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
-### 🔨 CI/CD
+###  CI/CD
 - **Jenkins**: Automates builds and deployments  
 - **Git**: Source control  
 - **Docker**: Containerization  
@@ -30,15 +30,10 @@ The project simulates a real-world software delivery lifecycle by automating:
 
 
 
-### 📊 Monitoring & Logging
+###  Monitoring & Logging
 - **Prometheus**: Metrics
 - **Grafana**: Visualization
 - **Loki**: Centralized logging
 
-### ☁️ Infrastructure
+###  Infrastructure
 - **K3s**: Lightweight Kubernetes cluster
-
----
-
-## 🧱 Project Structure
-#TODO
